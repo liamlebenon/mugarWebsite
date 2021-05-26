@@ -1,0 +1,194 @@
+/* Stylesheet for MUGAR the Series Website */
+
+header { background-image: url("banner.png");
+		 background-repeat: no-repeat;
+		 background-size: 1400px 412px;
+		 background-position: center;
+		 height: 300px;
+		 border: 1px solid black;
+}
+
+body { background-image: url("background1.jpg");
+	   background-attachment: fixed;
+	   min-width: 1300px;
+}
+
+/*Styling for drop down Nav menu */
+nav { width: 100%;
+	  margin-top: 5px;
+	  display: block;
+	  height: 100px;
+	  background-color: lightgray;
+	  text-align: center;
+	  border: 2px solid black;
+	  border-radius: 10px;
+	  min-width: 1280px;
+	  
+}
+
+nav ul { float: left;
+}
+
+nav ul li { float: left;
+		    text-align: center;
+			list-style: none;
+			position: relative;
+			padding-left: 105px;
+}
+
+nav ul li a { font-family: impact, serif; 
+			  color: black;
+			  text-decoration: none;
+			  display: block;
+			  padding: 20px 10px;
+			  font-size: 170%;
+
+}
+
+nav ul li ul li { width: 190px;	
+				  border-bottom: 1px solid black;
+}
+
+nav ul li ul { display: none;
+			   position: absolute;
+			   background-color: lightgray;
+			   padding: 10px 10px;
+			   border-radius: 0px 0px 10px 10px;
+}
+
+nav ul li:hover ul{ display: block; 
+}
+
+nav ul li ul li a { padding: 15px 15px;
+					text-align: center;
+}
+
+nav ul li ul li a:hover { background-color: #FFF;
+						  border-radius: 4px;
+}
+/*End of drop down nav menu */
+
+
+h1 { font-family: impact, sans; 
+	 word-spacing: 5px;
+	 padding: 15px;
+	 font-size: 250%;
+}
+
+h2 { font-family: impact, sans; 
+	 word-spacing: 5px;
+	 padding: 15px;
+	 font-size: 180%;
+	 padding-bottom: 0px;
+	 text-align: center;
+}
+
+main { background-image: url("bodyback.jpg");
+	   background-size: cover;
+	   margin-top: -19px;
+}
+
+main p { padding: 15px; 
+		 padding-top: 0;
+		 font-size: 150%;
+		 font-family: Helvetica, sans-serif;
+		 
+}
+
+video { margin-left: auto;
+		margin-right: auto;
+		width: 95%;
+		display: block;
+		margin-top: -15px;
+}
+
+figure {width: 30%;
+		display: inline-block;
+		margin: 0;
+		padding-left: 13%
+}
+
+figcaption { font-family: impact, serif;
+			 font-size: 200%;
+			 text-align: center;
+}
+
+/* Sign Up form styling */
+fieldset { border: 3px solid lightgray;
+		   border-radius: 0 0 5px 5px;
+		   text-align: left;
+		   color: black;
+		   width: 300px;
+		   font-family: impact, serif;
+		   font-size: 120%;
+		   margin: auto;
+		   letter-spacing: 1px;
+}
+
+input { float: right;
+}
+
+legend { font-family: impact, serif;	
+		 text-align: center;
+		 font-size: 120%;
+}
+/* End of sign up for styling */
+
+
+footer { background-color: gray;
+		 font-family: Georgia, sans-serif;
+		 font-size: 90%;
+		 font-style: italic;
+		 text-align: center;
+		 padding: 5px;
+		 border-top: 1px solid black;
+}
+
+
+.dropdown { padding-left: 2px; 
+			padding-right: 2px;
+}
+
+.profilePic { border: 1px solid black;
+			  border-radius: 10px;
+}	
+
+#prevPic { float: left;
+		   margin-left: 180px;
+		   height: 40px;
+		   width: 75px;
+}
+
+#nextPic { float: right; 
+		   margin-right: 180px;
+		   height: 40px;
+		   width: 75px;
+}
+		
+#overlooking { margin-left: auto;
+			   margin-right: auto;
+			   width: 75%;
+			   height: 20%;
+			   display: block;
+			   border: 2px solid black;
+			   border-radius: 5px;
+}
+
+#wrapper { margin: auto;
+		   width: 80%;
+}
+
+
+
+#submitBtn { width: 50%; 
+			 margin-right: 75px;
+}
+
+#imageGallery { float: right;
+				margin-left: 10px;
+				margin-right: 10px;
+				border: 1px solid black;
+				border-radius: 5px;
+}
+
+#mobileNav { display: none; }

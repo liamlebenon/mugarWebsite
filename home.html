@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mugar Series</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="MobileStyleHome.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style>
+
+</style>
+</head>
+
+
+<div id="wrapper">
+<header></header>
+
+<body>
+
+<!-- Navigation Bar with drop down menu -->
+	<nav id="dropdownMenu">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="season1.html">Season One</a>
+				<ul>
+					<li class="dropdown" style="border-top: 1px solid black"><a href="ep1.html">Episode One</a></li>
+					<li class="dropdown"><a href="ep2.html">Episode Two</a></li>
+				</ul>
+			</li>
+			<li><a href="season2.html">Season Two</a>
+				<ul>
+					<li class="dropdown" style="border-top: 1px solid black"><a href="s2e1.html">Episode One</a></li>
+					<li class="dropdown"><a href="s2e2.html">Episode Two</a></li>
+					<li class="dropdown"><a href="s2e3.html">Episode Three</a></li>
+				</ul>
+			</li>
+			<li><a href="characters.html">Characters</a>
+				<ul>
+					<li class="dropdown" style="border-top: 1px solid black"><a href="vernon.html">Mugar</a></li>
+					<li class="dropdown"><a href="tshepo.html">Tshepo Shongololo</a></li>
+					<li class="dropdown"><a href="oracle.html">The Oracle</a></li>
+					<li class="dropdown"><a href="jabu.html">Jabu</a></li>
+				</ul>
+			</li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</nav>
+<!-- End of navigation bar -->
+	
+<main>
+
+	<h1>Welcome to the MUGAR official website</h1>
+	
+	<img src="portraitImg/ss3.jpg" alt="Picture Slideshow" id="imageGallery">
+	
+	<h2>About the Series</h2>
+		<p>MUGAR the Series was created by Aidan and Liam Lebenon in 2016, taking great inspiration from their grandfather, Vernon (Mugar) Lebenon. The series was started as a funny video of an animated Vernon road raging along a highly congested road while dropping Liam at home.</p>
+		<p>The series consists of two seasons both having 3 episodes each.  The first season was animated in Microsoft Paint and is created as a cartoon.  Season Two was a much more ambitious project undertaken by the team and made using Garry's Mod which gave the creators much more freedom with better visual quality as well as a much faster way of creating new content.</p> 
+		
+	<h2>Where to Watch</h2>
+		<p>MUGAR is posted to YouTube and is available for free to any one who wishes to watch it.  It is also available to watch for free on this website.  The series was initially created to be shown to family but it has been released publicly in 2020. </p>
+		<p>There was a large public viewing for the premier on Christmas Day 2016 for MUGAR Season One, which was viewed by over 20 fans and on Christmas Day 2017 where MUGAR Season Two was viewed by a further 20 fans.  Both seasons were highly acclaimed.</p>
+		
+	<h2>Image Gallery</h2>
+	<div id="imageShow">
+	<img src="stillImages/bp1.png" id="overlooking" alt="Mugar overlooking the Vaal" height="559" width="1000">
+	<button id="prevPic" type="button" onclick="prevImage()">Previous</button>
+	<button id="nextPic" type="button" onclick="nextImage()">Next</button>
+	</div>
+	<br><br><br>
+	
+<!-- Start of Newsletter Signup -->
+
+	<form id="newsSignup" method="post" action="https://webdevbasics.net/scripts/demo.php"  onsubmit="return validateNewsSignup()">
+	<fieldset><legend>Sign Up to our Newsletter</legend>
+		<label for="username">Username: &nbsp;&nbsp;</label><input type="text" id="username" maxlength="12"><br>
+		<label for="email">E-Mail: &nbsp;&nbsp;</label><input type="email" id="email" maxlength="25"><br>
+		<label for="age">Age: &nbsp;&nbsp;</label><input type="number" id="age" maxlength="3"><br><br>
+		<input id="submitBtn" type="submit" value="Sign Up!"> 
+	</fieldset>
+	</form>
+	
+<!-- End of Newsletter Signup -->
+	
+	<br><br>
+	
+<!-- Navigation for mobile phone -->
+
+	<div id="mobileNav">
+		<h2 id="dispS1">Season One<h2>
+		<ul id="season1">
+			<li><a href="s1e1.html">Episode One</a></li>
+			<li><a href="s1e2.html">Episode Two</a></li>
+			<li><a href="s1e3.html">Episode Three</a></li>
+		</ul>
+		<hr>
+		
+		<h2 id="dispS2">Season Two<h2>
+		<ul id="season2">	
+			<li><a href="s2e1.html">Episode One</a></li>
+			<li><a href="s2e2.html">Episode Two</a></li>
+			<li><a href="s2e3.html">Episode Three</a></li>
+		</ul>
+		<hr>
+		
+		
+		<h2 id="dispChar">Characters<h2>
+		<ul id="chars">	
+			<li><a href="vernon.html">Mugar</a></li>
+			<li><a href="tshepo.html">Tshepo Shongololo</a></li>
+			<li><a href="oracle.html">The Oracle</a></li>
+			<li><a href="jabu.html">Jabu</a></li>
+		</ul>
+	
+	
+	</div>
+	
+<!-- End of Navigation for mobile phones -->
+	
+</main>
+
+	<footer>
+	MUGAR the Series | Copyright &copy; Lebenon Productions 2021
+	</footer>
+
+</body>
+<script src="javascript.js" type="text/javascript"></script>
+</div>
+</html>
